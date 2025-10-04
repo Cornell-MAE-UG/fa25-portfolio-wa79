@@ -7,6 +7,4 @@ permalink: /projects/
 ---
 
 
-One of my assignments for Statics was to design a linear actuator system. The constraints on this system include a 150 x 50 cm 2d space. We were limited to 3 joints (2 of which are grounded). We had to choose a linear actuator from a catalog provided. The goal was to lift the most weight at its max height. 
-
-The actuator chosen (IMA55) produces a maximum thrust of 8050 lbs with a max stroke of 45.7 cm. The design was optimized for max height of 50 cm. The pins utilized were pins that allowed rotation. With basic static hand calcualations, I determined that the weight that the actuator lifts to 50cm is around 7357.82 lbs. 
+For a Statics assignment, I designed a linear actuator system within a 150 × 50 cm 2D workspace, using only three joints (two grounded). From the provided catalog I selected the IMA55 actuator, rated for a maximum thrust of 8,050 lbf and a 45.7 cm stroke. The linkage was optimized to achieve a 50 cm lift using rotation-allowing pin joints. Based on hand static calculations, the mechanism can lift approximately 7,358 lbf to the 50 cm height.

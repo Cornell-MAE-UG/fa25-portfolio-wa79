@@ -1,5 +1,5 @@
 ---
-layout: projects
+layout: page
 title: Linear Actuator Design
 description: Statics Linear Actuator Design Assignment
 image: /assets/images/linear.png

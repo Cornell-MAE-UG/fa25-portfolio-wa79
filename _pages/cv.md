@@ -11,7 +11,7 @@ permalink: /cv/
 ---
 
 #### Objective
-Aspiring engineering student with a strong foundation in mechanics and materials Passionate about aerospace technologies and eager to apply my knowledge in real-world applications.
+Aspiring engineering student with a strong foundation in mechanics and materials. Passionate about aerospace technologies and am eager to apply my knowledge in real-world applications.
 
 ---
 
@@ -29,7 +29,7 @@ Aspiring engineering student with a strong foundation in mechanics and materials
 #### Skills
 - **Software:** Autodesk Fusion 360
 - **Programming:** Python, MATLAB  
-- **Tools:** Machining
+- **Tools:** Machining (Manual lathe and mill, basic CNC)
 
 ---
 
@@ -47,7 +47,7 @@ Aspiring engineering student with a strong foundation in mechanics and materials
 ---
 
 #### Extracurricular Activities
-- Member of Liquid Propulsion @ Cornell, CUAD and MPA
+- Member of Liquid Propulsion @ Cornell and Cornell University Autonomous Drones
 
 
 ---

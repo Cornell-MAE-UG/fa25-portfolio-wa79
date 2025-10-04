@@ -3,7 +3,7 @@ layout: project
 title: Linear Actuator Design
 description: Statics Linear Actuator Design Assignment
 image: /assets/images/linear.png
-permalink: /projects/linear-actuator-design/
+permalink: /projects/
 ---
 
 

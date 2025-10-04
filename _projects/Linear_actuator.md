@@ -1,5 +1,5 @@
 ---
-layout: project
+layout: projects
 title: Linear Actuator Design
 description: Linear Actuator Assignment
 technologies: [Draw.io]

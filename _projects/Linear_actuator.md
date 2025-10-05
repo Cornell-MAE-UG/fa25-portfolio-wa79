@@ -3,7 +3,7 @@ layout: project
 title: Linear Actuator Design
 description: Linear Actuator Assignment
 technologies: [Draw.io]
-image: /assets/images/linear.jpg
+image: /assets/images/linear.png
 ---
 
 

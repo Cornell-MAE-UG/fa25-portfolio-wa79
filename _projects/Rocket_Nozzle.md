@@ -57,8 +57,11 @@ In an overexpanded nozzle, the exit pressure is lower than the ambient pressure.
 
 
 **Resources**
+
 https://www.youtube.com/watch?v=yMrJl-lJrRI&list=TLPQMjMxMTIwMjUaT-Oj5JbkUg&index=1
 
 https://astforgetech.com/rocket-nozzles-types-manufacturing-materials/
 
 https://www.halfcatrocketry.com/mojave-sphinx
+
+Contributers: Ahmed Arif (NetID: asa263)

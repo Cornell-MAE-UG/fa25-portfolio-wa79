@@ -45,6 +45,7 @@ The nozzle does not contain moving mechanical elements, so there is no shaft wor
 ![Isentropic Relations]({{ "/assets/images/eq.png" | relative_url }})
 
 **Control Volume Model**
+
 ![Model 1]({{ "/assets/images/model1.png" | relative_url }})
 
 **Design Consideration:** 

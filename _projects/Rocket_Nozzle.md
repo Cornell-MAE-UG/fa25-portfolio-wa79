@@ -35,12 +35,12 @@ The exhaust gases are modeled as an ideal gas with effective specific heat and g
 The nozzle does not contain moving mechanical elements, so there is no shaft work crossing the control-volume boundary. Changes in gravitational potential energy across the nozzle length are also negligible compared to the large change in kinetic energy. As a result, the steady-flow energy equation simplifies to a balance between enthalpy and kinetic energy, highlighting the nozzle’s role in converting thermal energy into directed exhaust velocity.
 
 **Energy Balance**
-![Energy Balance]({{ "/assets/images/eqn2.png" | relative_url }})
+![Energy Balance]({{ "/assets/images/eq2.png" | relative_url }})
 
-![Energy Balance]({{ "/assets/images/eqn1.png" | relative_url }})
+![Energy Balance]({{ "/assets/images/eq1.png" | relative_url }})
 
 **Isentropic Relations**
-![Isentropic Relations]({{ "/assets/images/eqn.png" | relative_url }})
+![Isentropic Relations]({{ "/assets/images/eq.png" | relative_url }})
 
 **Design Consideration:** 
 The area ratio of the nozzle (exit area relative to throat area) strongly affects performance because it determines the exit pressure and flow direction of the exhaust gases. A nozzle is considered ideally expanded when the exit pressure of the gases equals the ambient atmospheric pressure. Under this condition, the exhaust jet is aligned with the nozzle axis, and essentially all of the gas momentum contributes to useful thrust in the axial direction.

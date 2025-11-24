@@ -14,7 +14,7 @@ Beyond the throat, the nozzle diverges. In this supersonic region, the area–ve
 
 Mojave Sphinx utilizes an aluminum heat-sink engine design, in which the nozzle structure conducts heat away from the hot gas region during the burn. To protect the most thermally stressed location, the nozzle incorporates a copper insert at the throat. Copper’s high thermal conductivity helps spread and conduct heat away from the local hot spot, and its higher melting temperature compared to aluminum improves thermal robustness. The throat experiences the highest convective heat flux because the gas reaches sonic velocity there, producing strong shear and turbulence at high gas temperature. This combination leads to a large convective heat-transfer coefficient and concentrated thermal loading, making localized thermal management at the throat essential for maintaining structural integrity and reliable operation over the engine’s firing duration.
 
-![Photo of Cross Section]({{ "/assets/images/Nozzle.jpg" | relative_url }}){: .inline-image-l}
+![Photo of Cross Section]({{ "/assets/images/Nozzle.jpg" | relative_url }})
 
 Thermodynamic Model of Nozzle: 
 Rocket systems are extremely complex because of the nature of combustion processes that occur within the combustion chamber. However, there are many assumptions that can be made to simply calculations so that we can analyze a nozzle’s efficiency: 
@@ -34,9 +34,9 @@ The exhaust gases are modeled as an ideal gas with effective specific heat and g
 Negligible shaft work and potential energy change
 The nozzle does not contain moving mechanical elements, so there is no shaft work crossing the control-volume boundary. Changes in gravitational potential energy across the nozzle length are also negligible compared to the large change in kinetic energy. As a result, the steady-flow energy equation simplifies to a balance between enthalpy and kinetic energy, highlighting the nozzle’s role in converting thermal energy into directed exhaust velocity.
 
-![Energy Balance]({{ "/assets/images/eqn2.jpg" | relative_url }}){: .inline-image-l}
-![Energy Balance]({{ "/assets/images/eqn1.jpg" | relative_url }}){: .inline-image-l}
-![Isentropic Relations]({{ "/assets/images/eqn.jpg" | relative_url }}){: .inline-image-l}
+![Energy Balance]({{ "/assets/images/eqn2.jpg" | relative_url }})
+![Energy Balance]({{ "/assets/images/eqn1.jpg" | relative_url }})
+![Isentropic Relations]({{ "/assets/images/eqn.jpg" | relative_url }}
 
 Design Consideration: 
 The area ratio of the nozzle (exit area relative to throat area) strongly affects performance because it determines the exit pressure and flow direction of the exhaust gases. A nozzle is considered ideally expanded when the exit pressure of the gases equals the ambient atmospheric pressure. Under this condition, the exhaust jet is aligned with the nozzle axis, and essentially all of the gas momentum contributes to useful thrust in the axial direction.

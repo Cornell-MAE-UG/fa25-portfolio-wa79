@@ -1,6 +1,6 @@
 ---
 layout: project
-title: Rocket Nozzle Portfolio
+title: Mojave Sphinx Rocket Nozzle 
 description: Rocket Nozzle of Mojave Sphinx
 technologies: [Fusion 360]
 image: /assets/images/nozzle2.png

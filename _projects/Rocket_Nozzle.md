@@ -36,7 +36,7 @@ The nozzle does not contain moving mechanical elements, so there is no shaft wor
 
 ![Energy Balance]({{ "/assets/images/eqn2.png" | relative_url }})
 ![Energy Balance]({{ "/assets/images/eqn1.png" | relative_url }})
-![Isentropic Relations]({{ "/assets/images/eqn.png" | relative_url }}
+![Isentropic Relations]({{ "/assets/images/eqn.png" | relative_url }})
 
 Design Consideration: 
 The area ratio of the nozzle (exit area relative to throat area) strongly affects performance because it determines the exit pressure and flow direction of the exhaust gases. A nozzle is considered ideally expanded when the exit pressure of the gases equals the ambient atmospheric pressure. Under this condition, the exhaust jet is aligned with the nozzle axis, and essentially all of the gas momentum contributes to useful thrust in the axial direction.

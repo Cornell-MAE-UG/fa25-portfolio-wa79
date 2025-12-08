@@ -87,5 +87,5 @@ https://www.youtube.com/watch?v=yMrJl-lJrRI&list=TLPQMjMxMTIwMjUaT-Oj5JbkUg&inde
 AST Forge (rocket nozzle overview):
 https://astforgetech.com/rocket-nozzles-types-manufacturing-materials/
 
-Half-Cat Rocketry - Mojave Sphinx:
+Half-Cat Rocketry -gut Mojave Sphinx:
 https://www.halfcatrocketry.com/mojave-sphinx

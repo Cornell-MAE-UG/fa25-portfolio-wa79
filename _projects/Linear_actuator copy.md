@@ -19,13 +19,13 @@ The bar length is **L = 150 cm**, oriented at approximately **θ ≈ 19.6°** fr
 
 Using a moment balance about the ground pin at **A**, I determined the maximum payload that can be lifted to 50 cm is:
 
+$$
+\sum M_A = 0 \;\Rightarrow\; (8050)\,r_1 - W\,r_2 = 0
+$$
+
 - **Maximum lifted weight:** **W = 7357.82 lbf**
 
-**(Insert image of rigid-bar FBD + moment calculation here)**  
-
-![Rigid-bar FBD](images/fbd_rigid.png)  
-![Moment balance](images/moment_calc.png)
-
+![Rigid-bar FBD](images/fbd.png)  
 ---
 
 ## Beam Bending / Deflection Analysis (Non-Rigid Bar)
@@ -117,3 +117,4 @@ Mass estimate (using $\rho = 2700\ \text{kg/m}^3$):
 $$
 m = \rho A L \approx (2700)(4.46\times 10^{-4})(1.5) \approx 1.81\ \text{kg}
 $$
+![Beam](images/beam.png)

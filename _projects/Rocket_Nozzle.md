@@ -63,7 +63,7 @@ Rocket nozzle flow is complex, but several standard assumptions simplify the ana
 
 ## Control Volume Model
 
-![Control Volume Model]({{ "/assets/images/model1.png" | relative_url }})
+<img src="{{ '/assets/images/model1.png' | relative_url }}" alt="Deflection diagram" style="max-width: 600px; width: 100%; height: auto;">
 
 ---
 

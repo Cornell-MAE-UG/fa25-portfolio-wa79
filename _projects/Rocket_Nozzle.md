@@ -36,7 +36,7 @@ Rocket nozzle flow is complex, but several standard assumptions simplify the ana
    During the main portion of the burn, the nozzle is treated as steady: mass flow in equals mass flow out, and properties at each location do not change with time. This enables steady-flow energy and momentum analysis.
 
 3. **Isentropic flow (ideal nozzle)**  
-   Expansion is often assumed **isentropic** (adiabatic and reversible), representing an upper bound with no losses from friction, shocks, or separation. Real nozzles experience irreversibilities; deviations can be captured using an efficiency/correction factor.
+   Expansion is often assumed isentropic (adiabatic and reversible), representing an upper bound with no losses from friction, shocks, or separation. Real nozzles experience irreversibilities; deviations can be captured using an efficiency/correction factor.
 
 4. **Ideal-gas combustion products**  
    Exhaust gases are modeled as an ideal gas with effective properties (e.g., representative $c_p$, $R$, and $\gamma$). This supports analytic relationships between pressure, temperature, Mach number, and velocity.

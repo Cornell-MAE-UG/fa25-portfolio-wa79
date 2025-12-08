@@ -25,7 +25,7 @@ $$
 
 - **Maximum lifted weight:** **W = 7357.82 lbf**
 
-![FBD]({{ "/assets/images/fbd.png" | relative_url }})
+<img src="{{ '/assets/images/fbd.png' | relative_url }}" alt="Deflection diagram" style="max-width: 600px; width: 100%; height: auto;">
 ---
 
 ## Beam Bending / Deflection Analysis (Non-Rigid Bar)
@@ -54,7 +54,6 @@ Therefore, the deflection boundary conditions are:
 Because the beam remains continuous at $x=a$ (not a hinge), the slope must be continuous across the two regions:
 - $y_1'(a)=y_2'(a)$
 
-*(Slope continuity does **not** require the slope to be zero; it only requires the left and right slopes to match.)*
 
 ### Piecewise Bending Moment and Integration
 The bending moment is defined piecewise:
@@ -82,7 +81,6 @@ $$
 y_{\max} = \frac{1.08 \times 10^8}{E I}\ \text{cm}
 $$
 
-**(Insert image of moment diagram / deflection sketch here)**  
 
 <img src="{{ '/assets/images/moment_diagram.png' | relative_url }}" alt="Moment diagram" style="max-width: 600px; width: 100%; height: auto;">
 
@@ -118,4 +116,4 @@ Mass estimate (using $\rho = 2700\ \text{kg/m}^3$):
 $$
 m = \rho A L \approx (2700)(4.46\times 10^{-4})(1.5) \approx 1.81\ \text{kg}
 $$
-![Beam]({{ "/assets/images/beam.png" | relative_url }})
+<img src="{{ '/assets/images/beam.png' | relative_url }}" alt="Deflection diagram" style="max-width: 600px; width: 100%; height: auto;">

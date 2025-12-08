@@ -25,7 +25,7 @@ $$
 
 - **Maximum lifted weight:** **W = 7357.82 lbf**
 
-![Rigid-bar FBD](images/fbd.png)  
+![FBD]({{ "/assets/images/fbd.png" | relative_url }})
 ---
 
 ## Beam Bending / Deflection Analysis (Non-Rigid Bar)
@@ -84,8 +84,8 @@ $$
 
 **(Insert image of moment diagram / deflection sketch here)**  
 
-![Moment diagram](images/moment_diagram.png)  
-![Deflection curve](images/deflection_curve.png)
+![moment]({{ "/assets/images/moment_diagram.png" | relative_url }})
+![deflection]({{ "/assets/images/deflection_diagram.png" | relative_url }})
 
 ---
 
@@ -117,4 +117,4 @@ Mass estimate (using $\rho = 2700\ \text{kg/m}^3$):
 $$
 m = \rho A L \approx (2700)(4.46\times 10^{-4})(1.5) \approx 1.81\ \text{kg}
 $$
-![Beam](images/beam.png)
+![Beam]({{ "/assets/images/beam.png" | relative_url }})

@@ -9,7 +9,7 @@ Mojave Sphinx is a high-power amateur rocket powered by a liquid bipropellant en
 
 A key thermodynamic component of the Mojave Sphinx propulsion system is the converging–diverging (C–D) nozzle located downstream of the combustion chamber. The primary function of the nozzle is to convert the high-temperature, high-pressure combustion products into directed kinetic energy by accelerating the flow to high velocity.
 
-Hot gases leaving the chamber enter the converging section of the nozzle. Under subsonic conditions, decreasing cross-sectional area increases velocity and decreases static pressure. At the smallest cross-sectional area (the **throat**), the flow becomes **choked** and reaches Mach 1 when the chamber-to-ambient pressure ratio is sufficiently high.
+Hot gases leaving the chamber enter the converging section of the nozzle. Under subsonic conditions, decreasing cross-sectional area increases velocity and decreases static pressure. At the smallest cross-sectional area (the throat), the flow becomes choked and reaches Mach 1 when the chamber-to-ambient pressure ratio is sufficiently high.
 
 Beyond the throat, the nozzle diverges. In the supersonic region, the area–velocity relationship reverses: increasing cross-sectional area accelerates the supersonic flow further while its static pressure and temperature decrease. This geometry converts internal energy and pressure into exhaust kinetic energy. The resulting high-velocity jet produces thrust primarily through momentum exchange, accelerating the rocket.
 
@@ -87,5 +87,5 @@ https://www.youtube.com/watch?v=yMrJl-lJrRI&list=TLPQMjMxMTIwMjUaT-Oj5JbkUg&inde
 AST Forge (rocket nozzle overview):
 https://astforgetech.com/rocket-nozzles-types-manufacturing-materials/
 
-Half-Cat Rocketry — Mojave Sphinx:
+Half-Cat Rocketry - Mojave Sphinx:
 https://www.halfcatrocketry.com/mojave-sphinx

@@ -65,7 +65,7 @@ $$
 EI\,y''(x) = M(x)
 $$
 
-## Region 1 ( \(0 < x < a\) )
+#### Region 1 0 < x < a
 
 Using the transverse (beam-normal) components, the reaction at \(A\) is:
 
@@ -79,7 +79,7 @@ $$
 M_1(x) = R_A\,x \qquad (0 < x < a)
 $$
 
-## Region 2 ( \(a < x < L\) )
+#### Region 2  a < x < L
 
 First, take the actuator’s transverse component (upward in this snapshot) as the reaction at \(x=a\):
 

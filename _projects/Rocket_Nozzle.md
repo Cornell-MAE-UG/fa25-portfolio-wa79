@@ -73,7 +73,7 @@ The nozzle **area ratio** ($A_e/A_t$) strongly affects performance because it se
 
 - **Underexpanded nozzle** ($p_e > p_a$): the flow continues expanding outside the nozzle via expansion fans; the jet spreads and some momentum is directed radially, reducing effective axial thrust at that condition. Underexpansion at sea level can become closer to ideal at higher altitude where ambient pressure is lower.
 
-- **Overexpanded nozzle** ($p_e < p_a$): ambient pressure compresses the jet, generating compression waves and potentially shocks. Mild overexpansion mainly reduces efficiency; severe overexpansion can cause boundary-layer separation, asymmetric side loads, and additional losses.
+- **Overexpanded nozzle** ($p_e < p_a$): ambient pressure compresses the jet, generating compression waves and potentially shocks. Slight overexpansion mainly reduces efficiency, while severe overexpansion can cause boundary-layer separation and other additional losses.
 
 For practical engines, the expansion ratio is chosen as a compromise across the expected operating altitude range. For Mojave Sphinx, the nozzle is designed to be **ideally expanded near sea-level atmospheric conditions**.
 

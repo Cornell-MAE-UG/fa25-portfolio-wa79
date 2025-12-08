@@ -5,9 +5,6 @@ description: Rocket Nozzle of Mojave Sphinx
 technologies: [Fusion 360]
 image: /assets/images/nozzle2.png
 ---
-
-## Mojave Sphinx — Nozzle Thermodynamic Overview
-
 Mojave Sphinx is a high-power amateur rocket powered by a liquid bipropellant engine using nitrous oxide as the oxidizer and compatible hydrocarbons (e.g., ethanol) as fuel. It was designed and proposed by Half-Cat Rocketry to provide a relatively simple and economical platform for new teams to gain practical experience in designing, manufacturing, and testing liquid rockets within a realistic student budget and timeline.
 
 A key thermodynamic component of the Mojave Sphinx propulsion system is the converging–diverging (C–D) nozzle located downstream of the combustion chamber. The primary function of the nozzle is to convert the high-temperature, high-pressure combustion products into directed kinetic energy by accelerating the flow to high velocity.
@@ -51,7 +48,9 @@ Rocket nozzle flow is complex, but several standard assumptions simplify the ana
 
 ## Energy Balance (Control Volume)
 
+
 ![Energy Balance]({{ "/assets/images/eq2.png" | relative_url }})
+
 ![Energy Balance]({{ "/assets/images/eq1.png" | relative_url }})
 
 ---
@@ -82,7 +81,6 @@ For practical engines, the expansion ratio is chosen as a compromise across the 
 
 ## Resources
 
-```text
 YouTube (nozzle explanation):
 https://www.youtube.com/watch?v=yMrJl-lJrRI&list=TLPQMjMxMTIwMjUaT-Oj5JbkUg&index=1
 

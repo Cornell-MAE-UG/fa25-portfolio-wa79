@@ -84,8 +84,9 @@ $$
 
 **(Insert image of moment diagram / deflection sketch here)**  
 
-![moment]({{ "/assets/images/moment_diagram.png" | relative_url }})
-![deflection]({{ "/assets/images/deflection_diagram.png" | relative_url }})
+<img src="{{ '/assets/images/moment_diagram.png' | relative_url }}" alt="Moment diagram" style="max-width: 600px; width: 100%; height: auto;">
+
+<img src="{{ '/assets/images/deflection_diagram.png' | relative_url }}" alt="Deflection diagram" style="max-width: 600px; width: 100%; height: auto;">
 
 ---
 

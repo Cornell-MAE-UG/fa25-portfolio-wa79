@@ -45,7 +45,7 @@ Per the assignment instructions, I consider only the **force components transver
 ### Boundary Conditions and Continuity
 In this configuration, the beam is vertically constrained at:
 - the ground pin at $x=0$ (point A),
-- the actuator attachment point at $x=a$.
+- the actuator attachment point at $x=a=137.13cm$.
 
 Therefore, the deflection boundary conditions are:
 - $y_1(0)=0$
@@ -63,6 +63,34 @@ The bending moment is defined piecewise:
 Using Euler–Bernoulli:
 $$
 EI\,y''(x) = M(x)
+$$
+
+## Region 1 ( \(0 < x < a\) )
+
+Using the transverse (beam-normal) components, the reaction at \(A\) is:
+
+$$
+R_A = (W - 8050)\cos(19.5^\circ) = -657.5\ \text{lbf}
+$$
+
+For Region 1, the internal bending moment is:
+
+$$
+M_1(x) = R_A\,x \qquad (0 < x < a)
+$$
+
+## Region 2 ( \(a < x < L\) )
+
+First, take the actuator’s transverse component (upward in this snapshot) as the reaction at \(x=a\):
+
+$$
+R_B = (8050)\cos(19.5^\circ) \approx 7588\ \text{lbf}
+$$
+
+Then, for a cut in **Region 2** (between the actuator point and the tip), the internal bending moment includes both the reaction at \(A\) and the reaction at \(x=a\):
+
+$$
+M_2(x) = R_A\,x + R_B\,(x-a) \qquad (a < x < L)
 $$
 
 I integrate $M(x)$ twice in each region to obtain $y_1(x)$ and $y_2(x)$, then apply the boundary conditions and continuity condition to solve for integration constants.

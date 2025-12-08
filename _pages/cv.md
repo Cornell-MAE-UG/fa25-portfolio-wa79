@@ -18,7 +18,7 @@ Aspiring engineering student with a strong foundation in mechanics and materials
 #### Education
 - **Cornell University**  
   *Bachelor of Science in Mechanical and Aerospace Engineering*  
-  GPA: 3.97/4.0 | Graduation: May, 2028
+  GPA: 3.99/4.0 | Graduation: May, 2028
 
 - **[Plainfield East High School]**  
   *High School Diploma*  
@@ -29,10 +29,7 @@ Aspiring engineering student with a strong foundation in mechanics and materials
 #### Skills
 - **Software:** Autodesk Fusion 360
 - **Programming:** Python, MATLAB  
-- **Tools:** Machining (Manual lathe and mill, basic CNC)
-
----
-
+- **Tools:** Machining (Manual lathe and mill, CNC)
 
 ---
 

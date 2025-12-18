@@ -66,57 +66,65 @@ Rocket nozzle flow is complex, but several standard assumptions simplify the ana
 <img src="{{ '/assets/images/model1.png' | relative_url }}" alt="Deflection diagram" style="max-width: 600px; width: 100%; height: auto;">
 
 ---
-## Example Calculation and Analysis
+### Example Calculation and Analysis
 
-Because Mojave Sphinx does not publicly provide detailed in-nozzle state data, we estimate nozzle performance using equilibrium combustion properties from **NASA CEA** at the nominal operating point (**O/F = 2.1**, **\(p_c = 250\ \text{psi}\)**, nitrous oxide + ethanol). CEA returns the nozzle-inlet (stagnation) properties:
+Because Mojave Sphinx does not publicly provide detailed in-nozzle state data, we estimate nozzle performance using **NASA CEA** equilibrium properties at the nominal operating point \((\mathrm{O/F}=2.1,\ p_c=250\ \mathrm{psi})\) for nitrous oxide + ethanol. CEA returns the nozzle-inlet (stagnation) properties:
 
-- \(T_0 = 2331.86\ \text{K}\)
-- \(c_p = 1.9982\ \text{kJ/(kg\cdot K)} = 1998.2\ \text{J/(kg\cdot K)}\)
-- \(k = \gamma = 1.2673\)
+- \(T_0 = 2331.86\ \mathrm{K}\)
+- \(c_p = 1.9982\ \mathrm{kJ/(kg\cdot K)} = 1998.2\ \mathrm{J/(kg\cdot K)}\)
+- \(k=\gamma=1.2673\)
 
+Assumptions: **isentropic nozzle**, **ideally expanded at sea level** \((p_e \approx p_a)\), and **nozzle inlet pressure** \(p_0 \approx p_c\).
 
 ---
 
 ### 1) Exit velocity (isentropic expansion)
 
 Using the constant-\(c_p\) isentropic relation:
-\[
-V_e=\sqrt{2c_pT_0\left[1-\left(\frac{p_e}{p_0}\right)^{\frac{k-1}{k}}\right]}
-\]
 
-With \(p_0=p_c=250\ \text{psi}\) and \(p_e=p_a=14.7\ \text{psi}\):
-\[
-\boxed{V_e \approx 2048\ \text{m/s}}
-\]
+$$
+V_e=\sqrt{2c_pT_0\left[1-\left(\frac{p_e}{p_0}\right)^{\frac{k-1}{k}}\right]}
+$$
+
+With \(p_0=p_c=250\ \mathrm{psi}\) and \(p_e=p_a=14.7\ \mathrm{psi}\):
+
+$$
+V_e \approx 2048\ \mathrm{m/s}
+$$
 
 ---
 
 ### 2) Mass flow rate (from target thrust)
 
-For an ideally expanded nozzle at sea level:
-\[
-F \approx \dot{m}V_e
-\]
+For an ideally expanded nozzle at sea level, pressure thrust is negligible, so:
 
-Given \(F = 250\ \text{lbf} = 1112\ \text{N}\):
-\[
-\dot{m}=\frac{F}{V_e}
-\qquad\Rightarrow\qquad
-\boxed{\dot{m}\approx 0.543\ \text{kg/s}}
-\]
+$$
+F \approx \dot{m}V_e
+$$
+
+Using the target thrust \(F = 250\ \mathrm{lbf} = 1112\ \mathrm{N}\):
+
+$$
+\dot{m}=\frac{F}{V_e}\approx 0.543\ \mathrm{kg/s}
+$$
 
 ---
 
 ### 3) Specific impulse
 
-\[
-I_{sp}=\frac{F}{\dot{m}g_0}
-\]
+Specific impulse is defined as:
 
-Using \(g_0 = 9.80665\ \text{m/s}^2\):
-\[
-\boxed{I_{sp}\approx 209\ \text{s}}
-\]
+$$
+I_{sp}=\frac{F}{\dot{m}g_0}
+$$
+
+Using \(g_0=9.80665\ \mathrm{m/s^2}\):
+
+$$
+I_{sp}\approx 209\ \mathrm{s}
+$$
+
+---
 
 ## Design Consideration: Area Ratio and Expansion
 
@@ -140,3 +148,6 @@ https://astforgetech.com/rocket-nozzles-types-manufacturing-materials/
 
 Half-Cat Rocketry - Mojave Sphinx:
 https://www.halfcatrocketry.com/mojave-sphinx
+
+NASA CEA: 
+https://cearun.grc.nasa.gov/

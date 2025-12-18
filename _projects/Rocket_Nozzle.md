@@ -36,17 +36,17 @@ Rocket nozzle flow is complex, but several standard assumptions simplify the ana
    During the main portion of the burn, the nozzle is treated as steady: mass flow in equals mass flow out, and properties at each location do not change with time. This enables steady-flow energy and momentum analysis.
 
 3. **Isentropic flow (ideal nozzle)**  
-   Expansion is often assumed isentropic (adiabatic and reversible), representing an upper bound with no losses from friction, shocks, or separation. Real nozzles experience irreversibilities; deviations can be captured using an efficiency/correction factor.
+   Expansion is often assumed isentropic (adiabatic and reversible), representing an upper bound with no losses from friction, shocks, or separation. Because real nozzles experience irreversibilities, we can account for deviations by using an efficiency/correction factor; HalfCat suggests that 95-98% efficiency is a good approximation.
 
 4. **Ideal-gas combustion products**  
-   Exhaust gases are modeled as an ideal gas with effective properties (e.g., representative $c_p$, $R$, and $\gamma$). This supports analytic relationships between pressure, temperature, Mach number, and velocity.
+   Exhaust gases are modeled as an ideal gas with effective properties (e.g., representative $c_p$, $R$, and $\gamma$). This allows us to use relationships between pressure, temperature, Mach number, and velocity.
 
 5. **Negligible shaft work and potential energy change**  
    No moving components exist in the nozzle (no shaft work), and potential energy changes are negligible compared to kinetic energy changes. The energy equation simplifies to an enthalpy–kinetic energy conversion model.
 
 ---
 
-## Energy Balance (Control Volume)
+### Energy Balance (Control Volume)
 
 
 ![Energy Balance]({{ "/assets/images/eq2.png" | relative_url }})
@@ -55,17 +55,68 @@ Rocket nozzle flow is complex, but several standard assumptions simplify the ana
 
 ---
 
-## Isentropic Relations
+### Isentropic Relations
 
 ![Isentropic Relations]({{ "/assets/images/eq.png" | relative_url }})
 
 ---
 
-## Control Volume Model
+### Control Volume Model
 
 <img src="{{ '/assets/images/model1.png' | relative_url }}" alt="Deflection diagram" style="max-width: 600px; width: 100%; height: auto;">
 
 ---
+## Example Calculation and Analysis
+
+Because Mojave Sphinx does not publicly provide detailed in-nozzle state data, we estimate nozzle performance using equilibrium combustion properties from **NASA CEA** at the nominal operating point (**O/F = 2.1**, **\(p_c = 250\ \text{psi}\)**, nitrous oxide + ethanol). CEA returns the nozzle-inlet (stagnation) properties:
+
+- \(T_0 = 2331.86\ \text{K}\)
+- \(c_p = 1.9982\ \text{kJ/(kg\cdot K)} = 1998.2\ \text{J/(kg\cdot K)}\)
+- \(k = \gamma = 1.2673\)
+
+
+---
+
+### 1) Exit velocity (isentropic expansion)
+
+Using the constant-\(c_p\) isentropic relation:
+\[
+V_e=\sqrt{2c_pT_0\left[1-\left(\frac{p_e}{p_0}\right)^{\frac{k-1}{k}}\right]}
+\]
+
+With \(p_0=p_c=250\ \text{psi}\) and \(p_e=p_a=14.7\ \text{psi}\):
+\[
+\boxed{V_e \approx 2048\ \text{m/s}}
+\]
+
+---
+
+### 2) Mass flow rate (from target thrust)
+
+For an ideally expanded nozzle at sea level:
+\[
+F \approx \dot{m}V_e
+\]
+
+Given \(F = 250\ \text{lbf} = 1112\ \text{N}\):
+\[
+\dot{m}=\frac{F}{V_e}
+\qquad\Rightarrow\qquad
+\boxed{\dot{m}\approx 0.543\ \text{kg/s}}
+\]
+
+---
+
+### 3) Specific impulse
+
+\[
+I_{sp}=\frac{F}{\dot{m}g_0}
+\]
+
+Using \(g_0 = 9.80665\ \text{m/s}^2\):
+\[
+\boxed{I_{sp}\approx 209\ \text{s}}
+\]
 
 ## Design Consideration: Area Ratio and Expansion
 

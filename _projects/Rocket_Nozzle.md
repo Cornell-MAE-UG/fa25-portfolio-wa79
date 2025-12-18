@@ -118,7 +118,7 @@ $$
 I_{sp}=\frac{F}{\dot{m}g_0}
 $$
 
-Using $g_0=9.80665\ \mathrm{m/s^2}$:
+Using $g_0=9.81\ \mathrm{m/s^2}$:
 
 $$
 I_{sp}\approx 209\ \mathrm{s}

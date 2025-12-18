@@ -7,7 +7,7 @@ image: /assets/images/nozzle2.png
 ---
 Mojave Sphinx is a high-power amateur rocket powered by a liquid bipropellant engine using nitrous oxide as the oxidizer and compatible hydrocarbons (e.g., ethanol) as fuel. It was designed and proposed by Half-Cat Rocketry to provide a relatively simple and economical platform for new teams to gain practical experience in designing, manufacturing, and testing liquid rockets within a realistic student budget and timeline.
 
-A key thermodynamic component of the Mojave Sphinx propulsion system is the converging–diverging (C–D) nozzle located downstream of the combustion chamber. The primary function of the nozzle is to convert the high-temperature, high-pressure combustion products into directed kinetic energy by accelerating the flow to high velocity.
+A key thermodynamic component of the Mojave Sphinx propulsion system is the converging–diverging nozzle located downstream of the combustion chamber. The primary function of the nozzle is to convert the high-temperature, high-pressure combustion products into directed kinetic energy by accelerating the flow to high velocity.
 
 Hot gases leaving the chamber enter the converging section of the nozzle. Under subsonic conditions, decreasing cross-sectional area increases velocity and decreases static pressure. At the smallest cross-sectional area (the throat), the flow becomes choked and reaches Mach 1 when the chamber-to-ambient pressure ratio is sufficiently high.
 
@@ -25,7 +25,7 @@ Mojave Sphinx utilizes an aluminum heat-sink engine design, where the nozzle con
 
 ## Thermodynamic Model of the Nozzle
 
-Rocket nozzle flow is complex, but several standard assumptions simplify the analysis and allow first-order performance estimates.
+Rocket nozzle flow is complex, but several modeling assumptions help simplify the analysis and allow first-order performance estimates.
 
 ### Assumptions
 
@@ -36,10 +36,10 @@ Rocket nozzle flow is complex, but several standard assumptions simplify the ana
    During the main portion of the burn, the nozzle is treated as steady: mass flow in equals mass flow out, and properties at each location do not change with time. This enables steady-flow energy and momentum analysis.
 
 3. **Isentropic flow (ideal nozzle)**  
-   Expansion is often assumed isentropic (adiabatic and reversible), representing an upper bound with no losses from friction, shocks, or separation. Because real nozzles experience irreversibilities, we can account for deviations by using an efficiency/correction factor; HalfCat suggests that 95-98% efficiency is a good approximation.
+   Expansion is often assumed isentropic (adiabatic and reversible), with no losses from friction, shocks, or separation. Because real nozzles experience irreversibilities, we can account for deviations by using an efficiency/correction factor; HalfCat suggests that 95-98% efficiency is a good approximation.
 
 4. **Ideal-gas combustion products**  
-   Exhaust gases are modeled as an ideal gas with effective properties (e.g., representative $c_p$, $R$, and $\gamma$). This allows us to use relationships between pressure, temperature, Mach number, and velocity.
+   Exhaust gases are modeled as an ideal gas with effective properties (e.g., representative $c_p$, $R$, and $K$). This allows us to use relationships between pressure, temperature, Mach number, and velocity.
 
 5. **Negligible shaft work and potential energy change**  
    No moving components exist in the nozzle (no shaft work), and potential energy changes are negligible compared to kinetic energy changes. The energy equation simplifies to an enthalpy–kinetic energy conversion model.
@@ -74,13 +74,13 @@ Because Mojave Sphinx does not publicly provide detailed in-nozzle state data, w
 - $c_p = 1.9982\ \mathrm{kJ/(kg\cdot K)} = 1998.2\ \mathrm{J/(kg\cdot K)}$
 - $k=\gamma=1.2673$
 
-Assumptions: **isentropic nozzle**, **ideally expanded at sea level** ($p_e \approx p_a$), and **nozzle inlet pressure** ($p_0 \approx p_c$).
+Assumptions: **isentropic nozzle**, **ideally expanded at sea level** ($p_e \approx p_a$), and **nozzle inlet pressure is equal to chamber pressure** ($p_0 \approx p_c$).
 
 ---
 
 ### 1) Exit velocity (isentropic expansion)
 
-Using the constant-$c_p$ isentropic relation:
+Using the isentropic relation:
 
 $$
 V_e=\sqrt{2c_pT_0\left[1-\left(\frac{p_e}{p_0}\right)^{\frac{k-1}{k}}\right]}
@@ -126,15 +126,15 @@ $$
 
 ---
 
-## Design Consideration: Area Ratio and Expansion
+### Design Consideration: Bell Nozzle vs. Conical Nozzle
 
-The nozzle **area ratio** ($A_e/A_t$) strongly affects performance because it sets the exit pressure and the direction of the exhaust flow. A nozzle is **ideally expanded** when the exit pressure equals ambient pressure; in that case, the exhaust jet is well-aligned with the nozzle axis and most momentum contributes to axial thrust.
+Nozzle contour affects performance by changing how efficiently the exhaust expands and how well the exhaust momentum stays aligned with the nozzle axis.
 
-- **Underexpanded nozzle** ($p_e > p_a$): the flow continues expanding outside the nozzle via expansion fans; the jet spreads and some momentum is directed radially, reducing effective axial thrust at that condition. Underexpansion at sea level can become closer to ideal at higher altitude where ambient pressure is lower.
+**Conical nozzle:** A conical nozzle has straight walls with a constant divergence half-angle $\alpha$. It is simple, low-cost, and easy to manufacture, but it has thrust loss because some exhaust momentum is directed outward instead of purely axial. Conical nozzles also tend to be longer than an equivalent-performance bell nozzle, which can increase the mass of the rocket.
 
-- **Overexpanded nozzle** ($p_e < p_a$): ambient pressure compresses the jet, generating compression waves and potentially shocks. Slight overexpansion mainly reduces efficiency, while severe overexpansion can cause boundary-layer separation and other additional losses.
+**Bell (contoured) nozzle:** A bell nozzle uses a shaped contour that expands the flow efficiently and turns it more nearly parallel to the axis by the exit. This reduces thrust loss and can improve thrust for the same chamber conditions. Bell nozzles can also achieve similar performance with a shorter length, but they are more difficult to machine and inspect.
 
-For practical engines, the expansion ratio is chosen as a compromise across the expected operating altitude range. For Mojave Sphinx, the nozzle is designed to be **ideally expanded near sea-level atmospheric conditions**.
+**Mojave Sphinx choice:** Mojave Sphinx uses a **conical nozzle** to reduce cost and simplify manufacturing for student teams with limited machining access.
 
 ---
 

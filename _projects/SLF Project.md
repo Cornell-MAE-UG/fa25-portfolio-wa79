@@ -71,24 +71,17 @@ Elimination of SLF eggs prevents the development of adult populations causing th
 
 
 ## References
-
-
-- New York State Integrated Pest Management. (n.d.). Spotted lanternfly management. Cornell CALS College of
-Agriculture and Life Sciences.
-https://cals.cornell.edu/integrated-pest-management/outreach-education/whats-bugging-you/spott
-ed-lanternfly
-
+- New York State Integrated Pest Management. (n.d.). Spotted lanternfly management. https://cals.cornell.edu/integrated-pest-management/outreach-education/whats-bugging-you/spotted-lanternfly
 
 - Hayes, C. (2025, January 27). Spotted lanternflies could cost NYS grape industry millions. Cornell Chronicle. https://news.cornell.edu/stories/2025/01/spotted-
-   lanternflies-could-cost-nys-grape-industry-millions#:~:text=Using%20data%20from%20two%20key,and%20third%20years
-   %20of%20infestation%2C.
+    lanternflies-could-cost-nys-grape-industry-millions#:~:text=Using%20data%20from%20two%20key,and%20third%20years
+    %20of%20infestation%2C.
 
-
-- Krawczyk, Grzegorz. “What Should You Do With Spotted Lanternfly Egg Masses?” PennState Extension, 30 August 2023, https://extension.psu.edu/what-should-you-do-with-spotted-lanternfly-egg-masses. Accessed 19 February 2026.
+- Krawczyk, G. (2023, August 30). What should you do with spotted lanternfly egg masses? PennState Extension. https://extension.psu.edu/what-should-you-do-with-spotted-lanternfly-egg-masses
 
 
 ## Figure
 
 
-![Average SLFs per Vine (2018-2020)]({{ "/assets/images/avg_slf_per_vine.png" | relative_url }}){: style="max-width:100%; width:450px; height:auto; display:block; margin:0 auto;"}
+![Average SLFs per Vine (2018-2020)]({{ "/assets/images/SLF.png" | relative_url }}){: style="max-width:100%; width:450px; height:auto; display:block; margin:0 auto;"}
 ---

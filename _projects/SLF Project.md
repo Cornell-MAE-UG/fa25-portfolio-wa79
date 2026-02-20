@@ -24,7 +24,7 @@ header-includes:
 
 
 **Team:** _Big Red Stompers_
-**Clients:** Cornell CALS Extension / E\&J Gallo Winery / National Grape
+**Clients:** Cornell CALS Extension / E&J Gallo Winery / National Grape
 
 
 ## Problem Statement

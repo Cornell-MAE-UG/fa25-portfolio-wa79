@@ -103,7 +103,7 @@ The prototype is assembled by:
 5. installing the scraper,
 6. attaching the scraper plate to the rigid rod.
 
-![Average SLFs per Vine (2018-2020)]({{ "/assets/images/assembly.png" | relative_url }}){: style="max-width:100%; width:600px; height:auto; display:block; margin:0 auto;"}
+![Average SLFs per Vine (2018-2020)]({{ "/assets/images/assembly.png" | relative_url }}){: style="max-width:100%; width:800px; height:auto; display:block; margin:0 auto;"}
 
 ### What Was Tested
 

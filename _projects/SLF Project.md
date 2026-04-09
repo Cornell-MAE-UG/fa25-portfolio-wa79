@@ -1,13 +1,13 @@
 ---
 layout: project
 title: Big Red Stompers
-image: /assets/img/brslogo.png
-imagealt: Big Red Stompers functional prototype
+image: /assets/images/brslogo.png
+imagealt: Big Red Stompers project cover image
 technologies:
   - Fusion 360
   - 3D Printing
-  - Mechanical Prototyping
-  - Testing
+  - Mechanical Design
+  - Prototype Testing
 ---
 
 ## Milestones
@@ -19,22 +19,52 @@ technologies:
 ## Client Pitch
 {: #client-pitch }
 
-The goal of this project is to develop a portable handheld device that helps remove and destroy spotted lanternfly egg masses more effectively than scraping alone. Our team focused on combining egg-mass removal, crushing, and residue collection into a single device that is cleaner, faster, and easier to use in the field.
+**Team:** Big Red Stompers  
+**Clients:** Cornell CALS Extension / E&J Gallo Winery / National Grape
 
-### Problem
-Spotted lanternfly egg masses are often removed manually with scraping tools, which can be messy, incomplete, and inefficient. We wanted to create a product that would both remove the egg mass from a surface and destroy it in the same motion.
+### Problem Statement
+Spotted lanternflies (SLF) mainly target grapevines. As a result, grape farmers are trying to manage SLF populations in vineyards and nearby trees. SLF egg masses contain around 30–60 eggs, creating rapid population growth that affects later growing seasons. Current SLF population reduction methods, such as netting and manual egg removal, are difficult to scale across larger vineyards.
 
-### Proposed Solution
-Our concept uses three integrated functions:
-1. **Scraping** to detach the egg mass from a wall or tree.
-2. **Crushing/Stomping** to destroy the eggs after removal.
-3. **Collection** to funnel residue into an attached bottle for containment.
+### Impact
+Elimination of SLF eggs prevents the development of adult populations that cause the most damage to vineyards. The average SLFs per vine starts low, increasing sharply following the transition from nymph to adult stages. As a result, attacking the root cause would help protect regions like Lake Erie and the Finger Lakes from major losses between 1.5 million dollars in year one and 8.8 million dollars by year three of infestation.
 
-### Initial Design Goals
-- Make the device compact and handheld.
-- Reduce mess during egg-mass removal.
-- Improve destruction effectiveness compared to scraping alone.
-- Provide a design that could be demonstrated clearly during exhibit day.
+### Proposed Concept: *Stomp n' Scrape*
+**What it is:**  
+A handheld egg-removal device.
+
+**How it would be used:**  
+Designed to crush SLF egg mass shells and immediately scrape them into a rubbing-alcohol-filled vessel to prevent hatching.
+
+**Why it’s better than the status quo:**
+- Reduces the chance of leaving viable eggs behind.
+- Minimizes mess and user discomfort by sealing egg material instantly.
+- Improves output and efficiency compared to manual scraping alone.
+
+### End-of-Semester Proof of Concept
+A functional prototype with a crushing feature, integrated scraper, and removable alcohol container, fabricated using 3D-printed components and accessible materials, and tested on simulated SLF egg masses to evaluate effectiveness and ease of cleaning.
+
+### Key Risks / Unknowns
+1. Egg masses harden, making it difficult to ensure they are fully damaged. Two methods to kill the egg masses are crushing them and then scraping them into rubbing alcohol to kill the remaining ones.  
+2. Public aversion to killing or interacting with SLF, as crushing egg masses may be off-putting. This can be tested with user trials and user comfort feedback.  
+3. Many eggs are laid on high surfaces; 98% of eggs are found at unreachable heights (+10 feet) on trees. This suggests testing attachments to extendable tools so users can reach higher egg masses.
+
+### Questions for Client
+**What is preventing you from currently targeting egg masses? Is it location, time, or resources?**  
+*Decision affected:* This would affect the aspects we want to emphasize in our design, such as accessibility to higher areas and ease of cleaning, based on client demand.
+
+**Are there methods for reaching high areas that you are currently using?**  
+*Decision affected:* This would affect whether our product must account for reaching high-up areas, or whether it can be used with existing tools.
+
+**How much would you need to reduce or eliminate SLF after they’ve already reached the grapevines?**  
+*Decision affected:* This would affect our focus on egg masses and could potentially shift our direction toward the adult stage instead.
+
+### References
+- [New York State Integrated Pest Management. *Spotted lanternfly management.*](https://cals.cornell.edu/integrated-pest-management/outreach-education/whats-bugging-you/spotted-lanternfly)
+- [Hayes, C. (2025, January 27). *Spotted lanternflies could cost NYS grape industry millions.* Cornell Chronicle.](https://news.cornell.edu/stories/2025/01/spotted-lanternflies-could-cost-nys-grape-industry-millions)
+- [Krawczyk, G. (2023, August 30). *What should you do with spotted lanternfly egg masses?* PennState Extension.](https://extension.psu.edu/what-should-you-do-with-spotted-lanternfly-egg-masses)
+
+### Figure
+![Average SLFs per Vine (2018-2020)]({{ "/assets/images/SLF.png" | relative_url }}){: style="max-width:100%; width:450px; height:auto; display:block; margin:0 auto;"}
 
 ---
 
@@ -42,85 +72,93 @@ Our concept uses three integrated functions:
 {: #functional-prototype }
 
 ### Purpose of the Prototype
-The functional prototype was built to test whether our mechanical design could successfully combine scraping, crushing, and collection into one handheld device. The prototype includes a housing, internal stomper face, compression spring, pull knob, scraper, and bottle-thread connector.
+The functional prototype was built to test whether our design could combine three key functions into one handheld device: scraping spotted lanternfly egg masses off a surface, crushing them with a spring-loaded internal stomper, and collecting the residue in an attached bottle.
+
+### Prototype Components
+The functional prototype consists of:
+- Housing
+- Stomper face
+- Compression spring
+- Knob / actuation interface
+- Scraper
+- Bottle thread connector
+
+Most structural parts were 3D printed, while the spring was selected and tested separately.
 
 ### Design Intent
-The prototype is intended to perform three main functions:
-- **Scraping:** remove the spotted lanternfly egg mass from the surface.
-- **Crushing / Stomping:** compress the egg mass material with a spring-loaded stomper to destroy the eggs.
-- **Collection:** direct residue into an attached bottle for containment.
+The design combines three main functions:
+1. **Scraping** to remove the egg mass from the surface  
+2. **Crushing / Stomping** to compress and destroy the egg mass material  
+3. **Collection** to funnel the residue into an attached bottle for containment and later neutralization
 
-### What Was Built
-The prototype consists of:
-- 3D-printed housing
-- 3D-printed stomper face
-- Compression spring
-- 3D-printed pull knob / actuation interface
-- 3D-printed scraper
-- 3D-printed bottle-thread connector
-
-### Assembly Summary
-The device is assembled by:
-1. placing the compression spring on the rigid rod,
-2. inserting the spring-loaded subassembly into the housing,
-3. attaching the pull knob,
-4. installing the scraper,
-5. securing the scraper plate to the rigid rod.
+### Assembly Process
+The prototype is assembled by:
+1. preparing the spring-and-rod subassembly,
+2. preparing the shell casing,
+3. inserting the spring-loaded plate into the housing,
+4. attaching the pull knob,
+5. installing the scraper,
+6. attaching the scraper plate to the rigid rod.
 
 ### What Was Tested
 
-#### 1. Sliding Rail Motion and Interference
-We tested whether the slider could move through its full intended range of motion without excessive friction, jamming, or interference.
+#### Test 1: Sliding Rail Motion and Interference
+**Part being tested:** Housing rail and slider/stomper interface.
 
-**How it was tested**
-- Measured the force required to initiate motion using a spring scale.
-- Had 5 team members operate the slider and rate the difficulty from 1 to 10.
+**What was tested:**  
+Whether the slider could move through its intended range of motion without excessive friction, jamming, or interference.
 
-**Outcome**
-- Initial motion required **10 N**.
-- Mean user difficulty score before modification was **7/10**.
-- After sanding the rail surfaces, the mean difficulty improved to **5/10**.
-- The mechanism improved, but it still did not meet the desired usability range of **1–4**.
+**How it was tested:**  
+The force required to initiate motion was measured using a spring scale. In addition, five team members operated the slider and rated ease of use on a 1 to 10 scale.
 
-**Takeaway**
-The next prototype should increase clearance tolerances and improve print/material quality to reduce friction and binding.
+**Results:**  
+- Initial force required to initiate motion: **10 N**
+- Mean user difficulty score before modification: **7/10**
+- Mean user difficulty score after sanding the rail surfaces: **5/10**
 
-#### 2. Spring Mechanism Force and Usability
-We tested whether the spring could be compressed by hand while still supplying enough force to crush the egg mass.
+Even after sanding, the mechanism remained outside the desired usability range of 1–4.
 
-**How it was tested**
-- First evaluated the McMaster spring by manual compression.
-- Then tested a workshop spring and estimated spring constant using Hooke’s Law from a **500 g** load and **1.5 in** displacement.
+**Outcome for next iteration:**  
+The next prototype should increase clearance tolerances and use PETG instead of PLA to improve sliding performance and reduce interference.
 
-**Outcome**
+#### Test 2: Spring Mechanism Force and Usability
+**Part being tested:** Compression spring and stomping mechanism.
+
+**What was tested:**  
+Whether the spring could be compressed by hand while still supplying enough force to crush the egg mass.
+
+**How it was tested:**  
+The team first manually tested the McMaster spring. Then a workshop spring was evaluated using Hooke’s Law based on a 500 g load and a displacement of 1.5 inches.
+
+**Results:**  
 - The McMaster spring was too stiff for practical hand use.
 - The workshop spring had an estimated spring constant of about **129 N/m** or **0.74 lb/in**.
-- Later trials suggested the design likely needs a spring closer to **3–3.5 lbf/in** to more reliably generate crushing force with about **2 in** displacement.
+- Later trials suggested that a spring closer to **3–3.5 lbf/in** would better support the intended crushing force with about 2 inches of displacement.
 
-**Takeaway**
-The next prototype should use a somewhat stiffer but still hand-operable spring and improve the rod/attachment geometry for better load transfer.
+**Outcome for next iteration:**  
+The design should use a somewhat stiffer but still hand-operable spring and redesign the rod/attachment geometry to improve force transfer.
 
-### Success Criteria for the Final Prototype
-We established the following quantitative criteria for evaluating the final design:
+### Success Criteria
+Our final prototype will be evaluated using the following measurable criteria:
 
 1. **Portability**  
-   The device should weigh no more than **0.5 kg** and have a length no greater than **20 cm** without the bottle and **30 cm** with the bottle.
+   The device must weigh no more than **0.5 kg** and have a length no greater than **20 cm** without the bottle attachment and **30 cm** with the bottle attachment.
 
 2. **Egg Destruction Effectiveness**  
-   The device should destroy at least **95%** of the eggs in one egg mass in a single use.
+   The device must destroy at least **95%** of the eggs in one egg mass in a single use.
 
 3. **Removal Speed**  
-   One egg mass should be completely removed and destroyed in under **10 seconds on average**.
+   One egg mass must be completely removed and destroyed in less than **10 seconds on average**.
 
 4. **Residue Capture**  
-   The device should funnel at least **80%** of the removed residue into the attached bottle.
+   The device must funnel at least **80%** of the egg residue into the attached bottle.
 
-### Exhibit-Day Demonstration Plan
-For exhibit day, we plan to demonstrate two visible and measurable outcomes:
+### Exhibit-Day Demonstration
+Our exhibit-day demonstration will focus on two visible and measurable results:
 - complete egg-mass removal in under **10 seconds**
 - at least **80% residue capture** in the bottle
 
-This demonstration will show both the speed and cleanliness advantages of the design in a way that is easy for viewers to understand.
+This helps connect the prototype directly to clear success criteria during the final presentation.
 
 ### Reflection
-This functional prototype helped identify two major design risks: excessive friction in the sliding rail and insufficient force transfer in the spring-loaded crushing mechanism. These results directly informed the next iteration of the design and clarified what needs to improve before the final prototype.
+This prototype showed that the overall concept is feasible, but also revealed two major design issues: excessive friction in the rail system and insufficient force transfer in the spring-loaded crushing mechanism. These tests helped identify the main changes needed for the next iteration and gave us measurable criteria for evaluating the final version.

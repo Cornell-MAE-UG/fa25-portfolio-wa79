@@ -1,87 +1,126 @@
 ---
 layout: project
-title: "Semester Design Project"
-math: true
-description: "MAE 2250 - Intro to Mechanical Design"
-technologies: [LaTeX]
-image: "/assets/images/brslogo.png"
-fontsize: 11pt
-geometry: margin=1in
-papersize: letter
-pagestyle: empty
-header-includes:
-- '\pagenumbering{gobble}'
-- '\usepackage{url}'
-- '\usepackage{enumitem}'
-- '\usepackage{graphicx}'
-- '\def\UrlBreaks{\do\/\do-\do\.\do\&\do\_\do?\do\#\do\=\do\%\do\~}'
-- '\makeatletter'
-- '\renewcommand{\section}{\@startsection{section}{1}{0pt}{2pt}{1pt}{\normalfont\Large\bfseries}}'
-- '\renewcommand{\subsection}{\@startsection{subsection}{2}{0pt}{1.5pt}{0.5pt}{\normalfont\large\bfseries}}'
-- '\makeatother'
+title: Big Red Stompers
+image: /assets/img/brslogo.png
+imagealt: Big Red Stompers functional prototype
+technologies:
+  - Fusion 360
+  - 3D Printing
+  - Mechanical Prototyping
+  - Testing
 ---
-# Client Pitch
 
+## Milestones
+- [Client Pitch](#client-pitch)
+- [Functional Prototype](#functional-prototype)
 
-**Team:** _Big Red Stompers_
-**Clients:** Cornell CALS Extension / E&J Gallo Winery / National Grape
-
-
-## Problem Statement
-Spotted lanternflies (SLF) mainly target grapevines. As a result, grape farmers are trying to manage SLF populations in vineyards and nearby trees. SLF egg masses contain around 30-60 eggs, creating rapid population growth that affects later growing seasons. Current SLF population reduction methods, such as netting and manual egg removal are difficult to scale across larger vineyards.
-
-
-## Impact
-Elimination of SLF eggs prevents the development of adult populations causing the most damage to vineyards. The average SLFs per vine starts low, increasing sharply following the transition from nymph to adult stages (Figure 1). As a result, attacking the root cause would protect regions like Lake Erie and the Finger Lakes from losses between 1.5 million in year one and 8.8 million by year three of infestation (Hayes).
-
-
-## Proposed Concept: Stomp n' Scrape
-**What it is:** Handheld egg removal device.
-
-
-**How it would be used:** Designed to crush SLF egg mass shells and immediately scrape them into a rubbing-alcohol-filled vessel to prevent hatching.
-
-
-**Why it’s better than the status quo:**
-
-
-- Reduces the chance of leaving viable eggs behind.
-- Minimizes mess and user discomfort by sealing egg material instantly.
-- Improved output and efficiency compared to manual scraping alone.
-
-
-**End-of-semester proof-of-concept:** A functional prototype with a crushing feature, integrated scraper, and removable alcohol container, fabricated using 3D-printed components and accessible materials, and tested on simulated SLF egg masses to evaluate effectiveness and ease of cleaning.
-
-
-## Key Risks / Unknowns
-
-
-- 1 - Egg masses harden, making it difficult to ensure they are fully damaged. Two methods to kill the egg masses: crushing them and then scraping them into rubbing alcohol to kill the remaining ones.
-- 2 — Public aversion to kill/interact with SLF, as crushing egg masses may be off-putting. Test with user trials and gauge user comfort.
-- 3 — Many eggs are laid on high surfaces; 98% of eggs are found at unreachable heights (+10 feet) on trees (Krawczyk). Test attachments to extendable tools for users to reach higher egg masses.
-
-
-## Questions for Client
-1. **What is preventing you from currently targeting egg masses? Is it location, time or resources?**
-  *Decision affected:* This would affect the aspects we want to emphasize in our design, like making it accessible to higher areas of the tree and ease to clean, based on client demand.
-2. **Are there methods for reaching high areas that you are currently using?**
-  *Decision affected:* This would affect whether our product must account for reaching high-up areas, or if it can be used with existing tools.
-3. **How much would you need to reduce or eliminate SLF after they’ve already reached the grapevines?**
-  *Decision affected:* This would affect our focus from egg masses, potentially shifting our direction to solving the problem of SLFs in their adulthood phase.
-
-
-## References
-- New York State Integrated Pest Management. (n.d.). Spotted lanternfly management. https://cals.cornell.edu/integrated-pest-management/outreach-education/whats-bugging-you/spotted-lanternfly
-
-- Hayes, C. (2025, January 27). Spotted lanternflies could cost NYS grape industry millions. Cornell Chronicle. https://news.cornell.edu/stories/2025/01/spotted-
-    lanternflies-could-cost-nys-grape-industry-millions#:~:text=Using%20data%20from%20two%20key,and%20third%20years
-    %20of%20infestation%2C.
-
-- Krawczyk, G. (2023, August 30). What should you do with spotted lanternfly egg masses? PennState Extension. https://extension.psu.edu/what-should-you-do-with-spotted-lanternfly-egg-masses
-
-
-## Figure
-
-
-![Average SLFs per Vine (2018-2020)]({{ "/assets/images/SLF.png" | relative_url }}){: style="max-width:100%; width:450px; height:auto; display:block; margin:0 auto;"}
 ---
+
+## Client Pitch
+{: #client-pitch }
+
+The goal of this project is to develop a portable handheld device that helps remove and destroy spotted lanternfly egg masses more effectively than scraping alone. Our team focused on combining egg-mass removal, crushing, and residue collection into a single device that is cleaner, faster, and easier to use in the field.
+
+### Problem
+Spotted lanternfly egg masses are often removed manually with scraping tools, which can be messy, incomplete, and inefficient. We wanted to create a product that would both remove the egg mass from a surface and destroy it in the same motion.
+
+### Proposed Solution
+Our concept uses three integrated functions:
+1. **Scraping** to detach the egg mass from a wall or tree.
+2. **Crushing/Stomping** to destroy the eggs after removal.
+3. **Collection** to funnel residue into an attached bottle for containment.
+
+### Initial Design Goals
+- Make the device compact and handheld.
+- Reduce mess during egg-mass removal.
+- Improve destruction effectiveness compared to scraping alone.
+- Provide a design that could be demonstrated clearly during exhibit day.
+
+---
+
+## Functional Prototype
+{: #functional-prototype }
+
+### Purpose of the Prototype
+The functional prototype was built to test whether our mechanical design could successfully combine scraping, crushing, and collection into one handheld device. The prototype includes a housing, internal stomper face, compression spring, pull knob, scraper, and bottle-thread connector.
+
+### Design Intent
+The prototype is intended to perform three main functions:
+- **Scraping:** remove the spotted lanternfly egg mass from the surface.
+- **Crushing / Stomping:** compress the egg mass material with a spring-loaded stomper to destroy the eggs.
+- **Collection:** direct residue into an attached bottle for containment.
+
+### What Was Built
+The prototype consists of:
+- 3D-printed housing
+- 3D-printed stomper face
+- Compression spring
+- 3D-printed pull knob / actuation interface
+- 3D-printed scraper
+- 3D-printed bottle-thread connector
+
+### Assembly Summary
+The device is assembled by:
+1. placing the compression spring on the rigid rod,
+2. inserting the spring-loaded subassembly into the housing,
+3. attaching the pull knob,
+4. installing the scraper,
+5. securing the scraper plate to the rigid rod.
+
+### What Was Tested
+
+#### 1. Sliding Rail Motion and Interference
+We tested whether the slider could move through its full intended range of motion without excessive friction, jamming, or interference.
+
+**How it was tested**
+- Measured the force required to initiate motion using a spring scale.
+- Had 5 team members operate the slider and rate the difficulty from 1 to 10.
+
+**Outcome**
+- Initial motion required **10 N**.
+- Mean user difficulty score before modification was **7/10**.
+- After sanding the rail surfaces, the mean difficulty improved to **5/10**.
+- The mechanism improved, but it still did not meet the desired usability range of **1–4**.
+
+**Takeaway**
+The next prototype should increase clearance tolerances and improve print/material quality to reduce friction and binding.
+
+#### 2. Spring Mechanism Force and Usability
+We tested whether the spring could be compressed by hand while still supplying enough force to crush the egg mass.
+
+**How it was tested**
+- First evaluated the McMaster spring by manual compression.
+- Then tested a workshop spring and estimated spring constant using Hooke’s Law from a **500 g** load and **1.5 in** displacement.
+
+**Outcome**
+- The McMaster spring was too stiff for practical hand use.
+- The workshop spring had an estimated spring constant of about **129 N/m** or **0.74 lb/in**.
+- Later trials suggested the design likely needs a spring closer to **3–3.5 lbf/in** to more reliably generate crushing force with about **2 in** displacement.
+
+**Takeaway**
+The next prototype should use a somewhat stiffer but still hand-operable spring and improve the rod/attachment geometry for better load transfer.
+
+### Success Criteria for the Final Prototype
+We established the following quantitative criteria for evaluating the final design:
+
+1. **Portability**  
+   The device should weigh no more than **0.5 kg** and have a length no greater than **20 cm** without the bottle and **30 cm** with the bottle.
+
+2. **Egg Destruction Effectiveness**  
+   The device should destroy at least **95%** of the eggs in one egg mass in a single use.
+
+3. **Removal Speed**  
+   One egg mass should be completely removed and destroyed in under **10 seconds on average**.
+
+4. **Residue Capture**  
+   The device should funnel at least **80%** of the removed residue into the attached bottle.
+
+### Exhibit-Day Demonstration Plan
+For exhibit day, we plan to demonstrate two visible and measurable outcomes:
+- complete egg-mass removal in under **10 seconds**
+- at least **80% residue capture** in the bottle
+
+This demonstration will show both the speed and cleanliness advantages of the design in a way that is easy for viewers to understand.
+
+### Reflection
+This functional prototype helped identify two major design risks: excessive friction in the sliding rail and insufficient force transfer in the spring-loaded crushing mechanism. These results directly informed the next iteration of the design and clarified what needs to improve before the final prototype.

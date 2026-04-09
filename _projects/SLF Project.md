@@ -91,8 +91,8 @@ The design combines three main functions:
 2. **Crushing / Stomping** to compress and destroy the egg mass material  
 3. **Collection** to funnel the residue into an attached bottle for containment and later neutralization
 
-![Average SLFs per Vine (2018-2020)]({{ "/assets/images/pic1.png" | relative_url }}){: style="max-width:100%; width:450px; height:auto; display:block; margin:0 auto;"}
-![Average SLFs per Vine (2018-2020)]({{ "/assets/images/pic2.png" | relative_url }}){: style="max-width:100%; width:450px; height:auto; display:block; margin:0 auto;"}
+![Average SLFs per Vine (2018-2020)]({{ "/assets/images/pic1.png" | relative_url }}){: style="max-width:100%; width:600px; height:auto; display:block; margin:0 auto;"}
+![Average SLFs per Vine (2018-2020)]({{ "/assets/images/pic2.png" | relative_url }}){: style="max-width:100%; width:600px; height:auto; display:block; margin:0 auto;"}
 
 ### Assembly Process
 The prototype is assembled by:
@@ -103,7 +103,7 @@ The prototype is assembled by:
 5. installing the scraper,
 6. attaching the scraper plate to the rigid rod.
 
-![Average SLFs per Vine (2018-2020)]({{ "/assets/images/assembly.png" | relative_url }}){: style="max-width:100%; width:450px; height:auto; display:block; margin:0 auto;"}
+![Average SLFs per Vine (2018-2020)]({{ "/assets/images/assembly.png" | relative_url }}){: style="max-width:100%; width:600px; height:auto; display:block; margin:0 auto;"}
 
 ### What Was Tested
 
